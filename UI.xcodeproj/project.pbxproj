@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845A3EA91BAA8C390014A113 /* CrearUsuario.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EA81BAA8C390014A113 /* CrearUsuario.xib */; settings = {ASSET_TAGS = (); }; };
+		845A3EAB1BAA8D7F0014A113 /* Bienvenida.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */; settings = {ASSET_TAGS = (); }; };
+		845A3EAD1BAA8D950014A113 /* ConsultaEmpresa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */; settings = {ASSET_TAGS = (); }; };
+		845A3EAF1BAA8DB70014A113 /* Mapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAE1BAA8DB70014A113 /* Mapa.xib */; settings = {ASSET_TAGS = (); }; };
+		8474B1D01BA89C0A004DD72A /* CrearEmpresa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */; settings = {ASSET_TAGS = (); }; };
+		8474B1D21BA8A35E004DD72A /* Logo Twelve rojo-plata.png in Resources */ = {isa = PBXBuildFile; fileRef = 8474B1D11BA8A35E004DD72A /* Logo Twelve rojo-plata.png */; settings = {ASSET_TAGS = (); }; };
 		84DC7D0C1BA0C49400E5492D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */; };
 		84DC7D0E1BA0C49400E5492D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC7D0D1BA0C49400E5492D /* ViewController.swift */; };
 		84DC7D111BA0C49400E5492D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC7D0F1BA0C49400E5492D /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		845A3EA81BAA8C390014A113 /* CrearUsuario.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrearUsuario.xib; sourceTree = "<group>"; };
+		845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Bienvenida.xib; sourceTree = "<group>"; };
+		845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsultaEmpresa.xib; sourceTree = "<group>"; };
+		845A3EAE1BAA8DB70014A113 /* Mapa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mapa.xib; sourceTree = "<group>"; };
+		8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrearEmpresa.xib; sourceTree = "<group>"; };
+		8474B1D11BA8A35E004DD72A /* Logo Twelve rojo-plata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo Twelve rojo-plata.png"; path = "../../../Downloads/Logo Twelve rojo-plata.png"; sourceTree = "<group>"; };
 		84DC7D081BA0C49400E5492D /* UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DC7D0D1BA0C49400E5492D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +49,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8474B1D51BA8AB5F004DD72A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8474B1D11BA8A35E004DD72A /* Logo Twelve rojo-plata.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8474B1D61BA8ABEF004DD72A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */,
+				845A3EA81BAA8C390014A113 /* CrearUsuario.xib */,
+				845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */,
+				845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */,
+				845A3EAE1BAA8DB70014A113 /* Mapa.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8474B1D71BA8AC03004DD72A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				84DC7D0F1BA0C49400E5492D /* Main.storyboard */,
+				84DC7D171BA0C49400E5492D /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		8474B1D81BA8AC16004DD72A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */,
+				84DC7D0D1BA0C49400E5492D /* ViewController.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		84DC7CFF1BA0C49400E5492D = {
 			isa = PBXGroup;
 			children = (
@@ -44,6 +94,7 @@
 				84DC7D091BA0C49400E5492D /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		84DC7D091BA0C49400E5492D /* Products */ = {
 			isa = PBXGroup;
@@ -56,13 +107,13 @@
 		84DC7D0A1BA0C49400E5492D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */,
-				84DC7D0D1BA0C49400E5492D /* ViewController.swift */,
-				84DC7D0F1BA0C49400E5492D /* Main.storyboard */,
+				8474B1D51BA8AB5F004DD72A /* Resources */,
+				8474B1D81BA8AC16004DD72A /* Class */,
+				8474B1D71BA8AC03004DD72A /* StoryBoard */,
 				84DC7D151BA0C49400E5492D /* Assets.xcassets */,
-				84DC7D171BA0C49400E5492D /* LaunchScreen.storyboard */,
 				84DC7D1A1BA0C49400E5492D /* Info.plist */,
 				84DC7D121BA0C49400E5492D /* UI.xcdatamodeld */,
+				8474B1D61BA8ABEF004DD72A /* View */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -125,9 +176,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845A3EA91BAA8C390014A113 /* CrearUsuario.xib in Resources */,
 				84DC7D191BA0C49400E5492D /* LaunchScreen.storyboard in Resources */,
+				845A3EAD1BAA8D950014A113 /* ConsultaEmpresa.xib in Resources */,
 				84DC7D161BA0C49400E5492D /* Assets.xcassets in Resources */,
+				845A3EAF1BAA8DB70014A113 /* Mapa.xib in Resources */,
+				8474B1D21BA8A35E004DD72A /* Logo Twelve rojo-plata.png in Resources */,
+				845A3EAB1BAA8D7F0014A113 /* Bienvenida.xib in Resources */,
 				84DC7D111BA0C49400E5492D /* Main.storyboard in Resources */,
+				8474B1D01BA89C0A004DD72A /* CrearEmpresa.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +345,7 @@
 				84DC7D1F1BA0C49400E5492D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
