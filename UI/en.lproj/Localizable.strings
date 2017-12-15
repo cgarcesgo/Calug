@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  UI
+
+  Created by Usuario on 13/11/15.
+  Copyright © 2015 Twelve Group. All rights reserved.
+*/
+
+"ClaveActualizar" = "Update";
+"MenuCrearEmpresa" = "Create Company";
+"MenuSugerencias" = "Suggestions";
+"MenuSalir" = "End";
+"Bienvenido" = "Welcome to UI!";
+"Pagina" = "www.uiapp.co";
+"Splash" = "Mensaje";
+"Terminos" = "Terms of service";
+"TerminosAceptar" = "I have read terms of service";
+"ClaveAceptar" = "Accept"
+
+"Aplicacion" = "UI";
+
+
+"Login" = "UIAPP send a single SMS message to verify your phone number";
+"LoginNombre" = "Enter your name";
+"LoginTelefono" = "Confirm your country code and enter your phone number";
+"LoginAceptar" = "OK";
+
+"EmpresaEncabezado" = "Find and mark the location of your business or company on the map";
+
+"EmpresaBuscar" = "Search";
+"EmpresaImagen" = "Add your company image 33pix x 19pix";
+"EmpresaNombre" = "Your company name";
+"EmpresaDescripcion" = "Description";
+"EmpresaDireccion" = "Address";
+"EmpresaTelefono" = "Phone";
+"EmpresaGuardar" = "Save";
+
+"PerfilNombre" = "Enter your name";
+

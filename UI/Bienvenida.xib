@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Signika-Regular.ttf">
+            <string>Signika-Regular</string>
+            <string>Signika-Regular</string>
+            <string>Signika-Regular</string>
+        </mutableArray>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -10,42 +17,107 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uuu-ef-gWu">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fm0-Li-KC7">
                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="145" y="51" width="110" height="21"/>
+                        <rect key="frame" x="145" y="42" width="110" height="21"/>
                     </variation>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXw-dK-YH4">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jB6-l4-TNO">
                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="80"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="152" y="115" width="82" height="115"/>
+                        <rect key="frame" x="152" y="106" width="82" height="115"/>
                     </variation>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duB-bQ-n6i">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhk-lO-b3C">
                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
                     <state key="normal" title="Aceptar"/>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="164" y="385" width="59" height="30"/>
+                        <rect key="frame" x="164" y="376" width="59" height="30"/>
                     </variation>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Politicas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pR8-CQ-bih">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Politicas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gC7-vW-ofB">
                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Signika-Regular" family="Signika" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="69" y="249" width="263" height="103"/>
+                        <rect key="frame" x="69" y="240" width="263" height="103"/>
                     </variation>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos a UI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drb-Xy-EeG">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PapelTapiz-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ePl-hH-bL0">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PapelTapiz-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="frE-Mn-tHb">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PapelTapiz-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Osg-XO-Pcl">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <variation key="heightClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="400"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PapelTapiz-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4m6-K8-64z">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <variation key="heightClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                    </variation>
+                    <variation key="widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="400"/>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PapelTapiz-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PHB-kM-jDe">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                    <variation key="heightClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                    </variation>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="400"/>
+                    </variation>
+                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hga-gc-81F">
                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -53,15 +125,44 @@
                         <rect key="frame" x="168" y="220" width="55" height="21"/>
                     </variation>
                 </label>
+                <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PapelTapiz-01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h8J-k7-IS7">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                    </variation>
+                </imageView>
             </subviews>
+            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <variation key="default">
                 <mask key="subviews">
-                    <exclude reference="Uuu-ef-gWu"/>
-                    <exclude reference="VXw-dK-YH4"/>
-                    <exclude reference="duB-bQ-n6i"/>
-                    <exclude reference="pR8-CQ-bih"/>
+                    <exclude reference="Fm0-Li-KC7"/>
+                    <exclude reference="jB6-l4-TNO"/>
+                    <exclude reference="vhk-lO-b3C"/>
+                    <exclude reference="gC7-vW-ofB"/>
+                    <exclude reference="Drb-Xy-EeG"/>
+                    <exclude reference="ePl-hH-bL0"/>
+                    <exclude reference="frE-Mn-tHb"/>
+                    <exclude reference="Osg-XO-Pcl"/>
+                    <exclude reference="4m6-K8-64z"/>
                     <exclude reference="hga-gc-81F"/>
+                    <exclude reference="h8J-k7-IS7"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="subviews">
+                    <include reference="Osg-XO-Pcl"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="frE-Mn-tHb"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="subviews">
+                    <include reference="4m6-K8-64z"/>
                 </mask>
             </variation>
             <variation key="heightClass=compact-widthClass=regular">
@@ -71,12 +172,26 @@
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
                 <mask key="subviews">
-                    <include reference="Uuu-ef-gWu"/>
-                    <include reference="VXw-dK-YH4"/>
-                    <include reference="duB-bQ-n6i"/>
-                    <include reference="pR8-CQ-bih"/>
+                    <include reference="Fm0-Li-KC7"/>
+                    <include reference="jB6-l4-TNO"/>
+                    <include reference="vhk-lO-b3C"/>
+                    <include reference="gC7-vW-ofB"/>
+                    <exclude reference="Drb-Xy-EeG"/>
+                    <exclude reference="frE-Mn-tHb"/>
+                    <exclude reference="PHB-kM-jDe"/>
+                    <include reference="h8J-k7-IS7"/>
                 </mask>
             </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="subviews">
+                    <include reference="ePl-hH-bL0"/>
+                    <exclude reference="PHB-kM-jDe"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="208" y="368"/>
         </view>
     </objects>
+    <resources>
+        <image name="PapelTapiz-01.jpg" width="1550" height="2769"/>
+    </resources>
 </document>

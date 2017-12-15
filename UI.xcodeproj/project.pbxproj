@@ -7,35 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		845A3EA91BAA8C390014A113 /* CrearUsuario.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EA81BAA8C390014A113 /* CrearUsuario.xib */; settings = {ASSET_TAGS = (); }; };
-		845A3EAB1BAA8D7F0014A113 /* Bienvenida.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */; settings = {ASSET_TAGS = (); }; };
-		845A3EAD1BAA8D950014A113 /* ConsultaEmpresa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */; settings = {ASSET_TAGS = (); }; };
-		845A3EAF1BAA8DB70014A113 /* Mapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAE1BAA8DB70014A113 /* Mapa.xib */; settings = {ASSET_TAGS = (); }; };
-		8474B1D01BA89C0A004DD72A /* CrearEmpresa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */; settings = {ASSET_TAGS = (); }; };
-		8474B1D21BA8A35E004DD72A /* Logo Twelve rojo-plata.png in Resources */ = {isa = PBXBuildFile; fileRef = 8474B1D11BA8A35E004DD72A /* Logo Twelve rojo-plata.png */; settings = {ASSET_TAGS = (); }; };
+		843314541BF5243900975717 /* UI - Logo 58 x 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 843314531BF5243900975717 /* UI - Logo 58 x 58.png */; };
+		8433145C1BF5247A00975717 /* Logo Twelve rojo-plata.png in Resources */ = {isa = PBXBuildFile; fileRef = 843314561BF5247A00975717 /* Logo Twelve rojo-plata.png */; };
+		8433145D1BF5247A00975717 /* UI - Logo 80 x 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 843314571BF5247A00975717 /* UI - Logo 80 x 80.png */; };
+		8433145E1BF5247A00975717 /* UI - Logo 87 x 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 843314581BF5247A00975717 /* UI - Logo 87 x 87.png */; };
+		8433145F1BF5247A00975717 /* UI - Logo 120 x 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 843314591BF5247A00975717 /* UI - Logo 120 x 120.png */; };
+		843314601BF5247A00975717 /* UI - Logo 180 x 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433145A1BF5247A00975717 /* UI - Logo 180 x 180.png */; };
+		843314661BF525F100975717 /* Signika-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843314621BF525F100975717 /* Signika-Bold.ttf */; };
+		843314671BF525F100975717 /* Signika-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843314631BF525F100975717 /* Signika-Light.ttf */; };
+		843314681BF525F100975717 /* Signika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843314641BF525F100975717 /* Signika-Regular.ttf */; };
+		843314691BF525F100975717 /* Signika-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843314651BF525F100975717 /* Signika-Semibold.ttf */; };
+		8433146C1BF52AAC00975717 /* logos.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433146A1BF52AAC00975717 /* logos.png */; };
+		8433146D1BF52AAC00975717 /* PapelTapiz-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8433146B1BF52AAC00975717 /* PapelTapiz-01.jpg */; };
+		843314701BF61EEC00975717 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843314721BF61EEC00975717 /* Localizable.strings */; };
+		845A3EA91BAA8C390014A113 /* CrearUsuario.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EA81BAA8C390014A113 /* CrearUsuario.xib */; };
+		845A3EAB1BAA8D7F0014A113 /* Bienvenida.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */; };
+		845A3EAD1BAA8D950014A113 /* ConsultaEmpresa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */; };
+		845A3EAF1BAA8DB70014A113 /* Mapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A3EAE1BAA8DB70014A113 /* Mapa.xib */; };
+		8474B1D01BA89C0A004DD72A /* CrearEmpresa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */; };
+		8491D5711BF68AB100A38DB8 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491D56F1BF68AB100A38DB8 /* Photos.framework */; };
+		8491D5721BF68AB100A38DB8 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491D5701BF68AB100A38DB8 /* PhotosUI.framework */; };
+		8491D5751BF68CE900A38DB8 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491D5741BF68CE900A38DB8 /* Login.xib */; };
+		8491D5771BF68D4800A38DB8 /* ActualizarUsuario.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491D5761BF68D4800A38DB8 /* ActualizarUsuario.xib */; };
+		8491D5791BF68D5F00A38DB8 /* Reestablecer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491D5781BF68D5F00A38DB8 /* Reestablecer.xib */; };
+		8491D57B1BF68D7700A38DB8 /* Sugerencias.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491D57A1BF68D7700A38DB8 /* Sugerencias.xib */; };
+		8491D57D1BF68DA700A38DB8 /* MisEmpresas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8491D57C1BF68DA700A38DB8 /* MisEmpresas.xib */; };
+		8491D5811BFA57FB00A38DB8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491D5801BFA57FB00A38DB8 /* Login.swift */; };
+		8491D5831BFA581100A38DB8 /* ActualizarUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491D5821BFA581100A38DB8 /* ActualizarUsuario.swift */; };
+		8491D5851BFA582500A38DB8 /* Reestablecer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491D5841BFA582500A38DB8 /* Reestablecer.swift */; };
+		8491D5871BFA583400A38DB8 /* Sugerencias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491D5861BFA583400A38DB8 /* Sugerencias.swift */; };
+		8491D5891BFA583F00A38DB8 /* MisEmpresas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491D5881BFA583F00A38DB8 /* MisEmpresas.swift */; };
+		84B83A321BD01A06009E2CCB /* CrearEmpresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83A311BD01A05009E2CCB /* CrearEmpresa.swift */; };
+		84B83A341BD01A4E009E2CCB /* CrearUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83A331BD01A4E009E2CCB /* CrearUsuario.swift */; };
+		84B83A361BD01A5D009E2CCB /* Bienvenida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83A351BD01A5D009E2CCB /* Bienvenida.swift */; };
+		84B83A381BD01AC2009E2CCB /* ConsultaEmpresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83A371BD01AC2009E2CCB /* ConsultaEmpresa.swift */; };
+		84B83A3A1BD01ACF009E2CCB /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83A391BD01ACF009E2CCB /* Mapa.swift */; };
 		84DC7D0C1BA0C49400E5492D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */; };
-		84DC7D0E1BA0C49400E5492D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC7D0D1BA0C49400E5492D /* ViewController.swift */; };
-		84DC7D111BA0C49400E5492D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC7D0F1BA0C49400E5492D /* Main.storyboard */; };
 		84DC7D141BA0C49400E5492D /* UI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DC7D121BA0C49400E5492D /* UI.xcdatamodeld */; };
 		84DC7D161BA0C49400E5492D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DC7D151BA0C49400E5492D /* Assets.xcassets */; };
-		84DC7D191BA0C49400E5492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC7D171BA0C49400E5492D /* LaunchScreen.storyboard */; };
+		F2C41BC7E05913739A6E55AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB473D0B27139C5801CA20B2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D88D49BA32C322CBA2E2051 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8419E4BA1BDEC4AA00A3C543 /* UI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UI-Bridging-Header.h"; sourceTree = "<group>"; };
+		843314531BF5243900975717 /* UI - Logo 58 x 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UI - Logo 58 x 58.png"; path = "Resources/UI - Logo 58 x 58.png"; sourceTree = "<group>"; };
+		843314561BF5247A00975717 /* Logo Twelve rojo-plata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo Twelve rojo-plata.png"; path = "Resources/Logo Twelve rojo-plata.png"; sourceTree = "<group>"; };
+		843314571BF5247A00975717 /* UI - Logo 80 x 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UI - Logo 80 x 80.png"; path = "Resources/UI - Logo 80 x 80.png"; sourceTree = "<group>"; };
+		843314581BF5247A00975717 /* UI - Logo 87 x 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UI - Logo 87 x 87.png"; path = "Resources/UI - Logo 87 x 87.png"; sourceTree = "<group>"; };
+		843314591BF5247A00975717 /* UI - Logo 120 x 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UI - Logo 120 x 120.png"; path = "Resources/UI - Logo 120 x 120.png"; sourceTree = "<group>"; };
+		8433145A1BF5247A00975717 /* UI - Logo 180 x 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UI - Logo 180 x 180.png"; path = "Resources/UI - Logo 180 x 180.png"; sourceTree = "<group>"; };
+		843314621BF525F100975717 /* Signika-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Bold.ttf"; path = "Resources/Fonts/Signika-Bold.ttf"; sourceTree = "<group>"; };
+		843314631BF525F100975717 /* Signika-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Light.ttf"; path = "Resources/Fonts/Signika-Light.ttf"; sourceTree = "<group>"; };
+		843314641BF525F100975717 /* Signika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Regular.ttf"; path = "Resources/Fonts/Signika-Regular.ttf"; sourceTree = "<group>"; };
+		843314651BF525F100975717 /* Signika-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Semibold.ttf"; path = "Resources/Fonts/Signika-Semibold.ttf"; sourceTree = "<group>"; };
+		8433146A1BF52AAC00975717 /* logos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logos.png; path = Resources/logos.png; sourceTree = "<group>"; };
+		8433146B1BF52AAC00975717 /* PapelTapiz-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "PapelTapiz-01.jpg"; path = "Resources/PapelTapiz-01.jpg"; sourceTree = "<group>"; };
+		843314711BF61EEC00975717 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		845A3EA81BAA8C390014A113 /* CrearUsuario.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrearUsuario.xib; sourceTree = "<group>"; };
 		845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Bienvenida.xib; sourceTree = "<group>"; };
 		845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsultaEmpresa.xib; sourceTree = "<group>"; };
 		845A3EAE1BAA8DB70014A113 /* Mapa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mapa.xib; sourceTree = "<group>"; };
 		8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrearEmpresa.xib; sourceTree = "<group>"; };
-		8474B1D11BA8A35E004DD72A /* Logo Twelve rojo-plata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo Twelve rojo-plata.png"; path = "../../../Downloads/Logo Twelve rojo-plata.png"; sourceTree = "<group>"; };
+		8491D56F1BF68AB100A38DB8 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		8491D5701BF68AB100A38DB8 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		8491D5731BF68BEF00A38DB8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8491D5741BF68CE900A38DB8 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		8491D5761BF68D4800A38DB8 /* ActualizarUsuario.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActualizarUsuario.xib; sourceTree = "<group>"; };
+		8491D5781BF68D5F00A38DB8 /* Reestablecer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Reestablecer.xib; sourceTree = "<group>"; };
+		8491D57A1BF68D7700A38DB8 /* Sugerencias.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sugerencias.xib; sourceTree = "<group>"; };
+		8491D57C1BF68DA700A38DB8 /* MisEmpresas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MisEmpresas.xib; sourceTree = "<group>"; };
+		8491D5801BFA57FB00A38DB8 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8491D5821BFA581100A38DB8 /* ActualizarUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActualizarUsuario.swift; sourceTree = "<group>"; };
+		8491D5841BFA582500A38DB8 /* Reestablecer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reestablecer.swift; sourceTree = "<group>"; };
+		8491D5861BFA583400A38DB8 /* Sugerencias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sugerencias.swift; sourceTree = "<group>"; };
+		8491D5881BFA583F00A38DB8 /* MisEmpresas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisEmpresas.swift; sourceTree = "<group>"; };
+		84B83A311BD01A05009E2CCB /* CrearEmpresa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearEmpresa.swift; sourceTree = "<group>"; };
+		84B83A331BD01A4E009E2CCB /* CrearUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearUsuario.swift; sourceTree = "<group>"; };
+		84B83A351BD01A5D009E2CCB /* Bienvenida.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bienvenida.swift; sourceTree = "<group>"; };
+		84B83A371BD01AC2009E2CCB /* ConsultaEmpresa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultaEmpresa.swift; sourceTree = "<group>"; };
+		84B83A391BD01ACF009E2CCB /* Mapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
 		84DC7D081BA0C49400E5492D /* UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84DC7D0D1BA0C49400E5492D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84DC7D101BA0C49400E5492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DC7D131BA0C49400E5492D /* UI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UI.xcdatamodel; sourceTree = "<group>"; };
 		84DC7D151BA0C49400E5492D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84DC7D181BA0C49400E5492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DC7D1A1BA0C49400E5492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE581C62DF73C90C072B3A9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CB473D0B27139C5801CA20B2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,16 +101,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8491D5711BF68AB100A38DB8 /* Photos.framework in Frameworks */,
+				8491D5721BF68AB100A38DB8 /* PhotosUI.framework in Frameworks */,
+				F2C41BC7E05913739A6E55AD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126F4DEC7BC16A70DE6CF8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8491D56F1BF68AB100A38DB8 /* Photos.framework */,
+				8491D5701BF68AB100A38DB8 /* PhotosUI.framework */,
+				CB473D0B27139C5801CA20B2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D1AFEA6D4E1D4FD8FCC8700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D88D49BA32C322CBA2E2051 /* Pods.debug.xcconfig */,
+				CAE581C62DF73C90C072B3A9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		843314611BF525C400975717 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				843314621BF525F100975717 /* Signika-Bold.ttf */,
+				843314631BF525F100975717 /* Signika-Light.ttf */,
+				843314641BF525F100975717 /* Signika-Regular.ttf */,
+				843314651BF525F100975717 /* Signika-Semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		84462DD91BE930B2005C05BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DC7D151BA0C49400E5492D /* Assets.xcassets */,
+				84DC7D1A1BA0C49400E5492D /* Info.plist */,
+				84DC7D121BA0C49400E5492D /* UI.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8474B1D51BA8AB5F004DD72A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8474B1D11BA8A35E004DD72A /* Logo Twelve rojo-plata.png */,
+				8433146A1BF52AAC00975717 /* logos.png */,
+				8433146B1BF52AAC00975717 /* PapelTapiz-01.jpg */,
+				843314611BF525C400975717 /* Fonts */,
+				843314561BF5247A00975717 /* Logo Twelve rojo-plata.png */,
+				843314571BF5247A00975717 /* UI - Logo 80 x 80.png */,
+				843314581BF5247A00975717 /* UI - Logo 87 x 87.png */,
+				843314591BF5247A00975717 /* UI - Logo 120 x 120.png */,
+				8433145A1BF5247A00975717 /* UI - Logo 180 x 180.png */,
+				843314531BF5243900975717 /* UI - Logo 58 x 58.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -60,31 +169,69 @@
 		8474B1D61BA8ABEF004DD72A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */,
-				845A3EA81BAA8C390014A113 /* CrearUsuario.xib */,
+				8491D58B1BFA588200A38DB8 /* Empresas */,
+				8491D58C1BFA589D00A38DB8 /* Usuario */,
 				845A3EAA1BAA8D7F0014A113 /* Bienvenida.xib */,
-				845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */,
 				845A3EAE1BAA8DB70014A113 /* Mapa.xib */,
+				8491D57A1BF68D7700A38DB8 /* Sugerencias.xib */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		8474B1D71BA8AC03004DD72A /* StoryBoard */ = {
-			isa = PBXGroup;
-			children = (
-				84DC7D0F1BA0C49400E5492D /* Main.storyboard */,
-				84DC7D171BA0C49400E5492D /* LaunchScreen.storyboard */,
-			);
-			name = StoryBoard;
 			sourceTree = "<group>";
 		};
 		8474B1D81BA8AC16004DD72A /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				84DC7D0B1BA0C49400E5492D /* AppDelegate.swift */,
-				84DC7D0D1BA0C49400E5492D /* ViewController.swift */,
+				8491D58D1BFA58C300A38DB8 /* Empresas */,
+				8491D58E1BFA58CF00A38DB8 /* Usuario */,
+				84B83A351BD01A5D009E2CCB /* Bienvenida.swift */,
+				84B83A391BD01ACF009E2CCB /* Mapa.swift */,
+				8419E4BA1BDEC4AA00A3C543 /* UI-Bridging-Header.h */,
+				8491D5861BFA583400A38DB8 /* Sugerencias.swift */,
 			);
 			name = Class;
+			sourceTree = "<group>";
+		};
+		8491D58B1BFA588200A38DB8 /* Empresas */ = {
+			isa = PBXGroup;
+			children = (
+				8474B1CF1BA89C0A004DD72A /* CrearEmpresa.xib */,
+				845A3EAC1BAA8D950014A113 /* ConsultaEmpresa.xib */,
+				8491D57C1BF68DA700A38DB8 /* MisEmpresas.xib */,
+			);
+			name = Empresas;
+			sourceTree = "<group>";
+		};
+		8491D58C1BFA589D00A38DB8 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				845A3EA81BAA8C390014A113 /* CrearUsuario.xib */,
+				8491D5741BF68CE900A38DB8 /* Login.xib */,
+				8491D5761BF68D4800A38DB8 /* ActualizarUsuario.xib */,
+				8491D5781BF68D5F00A38DB8 /* Reestablecer.xib */,
+			);
+			name = Usuario;
+			sourceTree = "<group>";
+		};
+		8491D58D1BFA58C300A38DB8 /* Empresas */ = {
+			isa = PBXGroup;
+			children = (
+				84B83A311BD01A05009E2CCB /* CrearEmpresa.swift */,
+				84B83A371BD01AC2009E2CCB /* ConsultaEmpresa.swift */,
+				8491D5881BFA583F00A38DB8 /* MisEmpresas.swift */,
+			);
+			name = Empresas;
+			sourceTree = "<group>";
+		};
+		8491D58E1BFA58CF00A38DB8 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				84B83A331BD01A4E009E2CCB /* CrearUsuario.swift */,
+				8491D5801BFA57FB00A38DB8 /* Login.swift */,
+				8491D5821BFA581100A38DB8 /* ActualizarUsuario.swift */,
+				8491D5841BFA582500A38DB8 /* Reestablecer.swift */,
+			);
+			name = Usuario;
 			sourceTree = "<group>";
 		};
 		84DC7CFF1BA0C49400E5492D = {
@@ -92,6 +239,8 @@
 			children = (
 				84DC7D0A1BA0C49400E5492D /* UI */,
 				84DC7D091BA0C49400E5492D /* Products */,
+				4D1AFEA6D4E1D4FD8FCC8700 /* Pods */,
+				126F4DEC7BC16A70DE6CF8C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -109,11 +258,9 @@
 			children = (
 				8474B1D51BA8AB5F004DD72A /* Resources */,
 				8474B1D81BA8AC16004DD72A /* Class */,
-				8474B1D71BA8AC03004DD72A /* StoryBoard */,
-				84DC7D151BA0C49400E5492D /* Assets.xcassets */,
-				84DC7D1A1BA0C49400E5492D /* Info.plist */,
-				84DC7D121BA0C49400E5492D /* UI.xcdatamodeld */,
+				84462DD91BE930B2005C05BC /* Supporting Files */,
 				8474B1D61BA8ABEF004DD72A /* View */,
+				843314721BF61EEC00975717 /* Localizable.strings */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -125,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84DC7D1D1BA0C49400E5492D /* Build configuration list for PBXNativeTarget "UI" */;
 			buildPhases = (
+				3368024844B904E21B874466 /* Check Pods Manifest.lock */,
 				84DC7D041BA0C49400E5492D /* Sources */,
 				84DC7D051BA0C49400E5492D /* Frameworks */,
 				84DC7D061BA0C49400E5492D /* Resources */,
+				EF8B7DDE35A1FA7D75584D16 /* Embed Pods Frameworks */,
+				DC0188EF9FE294D5E1BB3B9B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +294,21 @@
 		84DC7D001BA0C49400E5492D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Twelve Group";
 				TargetAttributes = {
 					84DC7D071BA0C49400E5492D = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = V34R97495F;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -160,6 +319,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 84DC7CFF1BA0C49400E5492D;
 			productRefGroup = 84DC7D091BA0C49400E5492D /* Products */;
@@ -176,48 +336,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843314601BF5247A00975717 /* UI - Logo 180 x 180.png in Resources */,
+				8491D57B1BF68D7700A38DB8 /* Sugerencias.xib in Resources */,
+				843314691BF525F100975717 /* Signika-Semibold.ttf in Resources */,
+				8433145D1BF5247A00975717 /* UI - Logo 80 x 80.png in Resources */,
 				845A3EA91BAA8C390014A113 /* CrearUsuario.xib in Resources */,
-				84DC7D191BA0C49400E5492D /* LaunchScreen.storyboard in Resources */,
+				8433146C1BF52AAC00975717 /* logos.png in Resources */,
+				843314701BF61EEC00975717 /* Localizable.strings in Resources */,
+				843314541BF5243900975717 /* UI - Logo 58 x 58.png in Resources */,
+				843314681BF525F100975717 /* Signika-Regular.ttf in Resources */,
+				8433145E1BF5247A00975717 /* UI - Logo 87 x 87.png in Resources */,
+				8433146D1BF52AAC00975717 /* PapelTapiz-01.jpg in Resources */,
 				845A3EAD1BAA8D950014A113 /* ConsultaEmpresa.xib in Resources */,
+				8433145F1BF5247A00975717 /* UI - Logo 120 x 120.png in Resources */,
 				84DC7D161BA0C49400E5492D /* Assets.xcassets in Resources */,
 				845A3EAF1BAA8DB70014A113 /* Mapa.xib in Resources */,
-				8474B1D21BA8A35E004DD72A /* Logo Twelve rojo-plata.png in Resources */,
+				843314661BF525F100975717 /* Signika-Bold.ttf in Resources */,
+				8491D57D1BF68DA700A38DB8 /* MisEmpresas.xib in Resources */,
+				8491D5771BF68D4800A38DB8 /* ActualizarUsuario.xib in Resources */,
+				843314671BF525F100975717 /* Signika-Light.ttf in Resources */,
 				845A3EAB1BAA8D7F0014A113 /* Bienvenida.xib in Resources */,
-				84DC7D111BA0C49400E5492D /* Main.storyboard in Resources */,
 				8474B1D01BA89C0A004DD72A /* CrearEmpresa.xib in Resources */,
+				8433145C1BF5247A00975717 /* Logo Twelve rojo-plata.png in Resources */,
+				8491D5751BF68CE900A38DB8 /* Login.xib in Resources */,
+				8491D5791BF68D5F00A38DB8 /* Reestablecer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3368024844B904E21B874466 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC0188EF9FE294D5E1BB3B9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8B7DDE35A1FA7D75584D16 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84DC7D041BA0C49400E5492D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DC7D0E1BA0C49400E5492D /* ViewController.swift in Sources */,
+				8491D5851BFA582500A38DB8 /* Reestablecer.swift in Sources */,
+				8491D5871BFA583400A38DB8 /* Sugerencias.swift in Sources */,
 				84DC7D141BA0C49400E5492D /* UI.xcdatamodeld in Sources */,
 				84DC7D0C1BA0C49400E5492D /* AppDelegate.swift in Sources */,
+				84B83A321BD01A06009E2CCB /* CrearEmpresa.swift in Sources */,
+				8491D5891BFA583F00A38DB8 /* MisEmpresas.swift in Sources */,
+				84B83A3A1BD01ACF009E2CCB /* Mapa.swift in Sources */,
+				84B83A361BD01A5D009E2CCB /* Bienvenida.swift in Sources */,
+				84B83A381BD01AC2009E2CCB /* ConsultaEmpresa.swift in Sources */,
+				8491D5831BFA581100A38DB8 /* ActualizarUsuario.swift in Sources */,
+				84B83A341BD01A4E009E2CCB /* CrearUsuario.swift in Sources */,
+				8491D5811BFA57FB00A38DB8 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84DC7D0F1BA0C49400E5492D /* Main.storyboard */ = {
+		843314721BF61EEC00975717 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84DC7D101BA0C49400E5492D /* Base */,
+				843314711BF61EEC00975717 /* en */,
+				8491D5731BF68BEF00A38DB8 /* es */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84DC7D171BA0C49400E5492D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84DC7D181BA0C49400E5492D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,23 +531,40 @@
 		};
 		84DC7D1E1BA0C49400E5492D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D88D49BA32C322CBA2E2051 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TWV.UI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "UI/UI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		84DC7D1F1BA0C49400E5492D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE581C62DF73C90C072B3A9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TWV.UI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "UI/UI-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

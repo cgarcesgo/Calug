@@ -8,15 +8,27 @@
 
 import UIKit
 import CoreData
+import GoogleMaps;
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var viewController: Mapa?// ここ
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Referencia API Google Maps
+        GMSServices.provideAPIKey("AIzaSyAGM9cg_2lSPdw_CcPAq8eiAFK_l6_0_KU")
+        
+        //Pantallazo inicial
+        //self.window = UIWindow(frame: UIScreen.mainScreen().bounds) // ここ
+        //viewController = Mapa(nibName: "Mapa", bundle: nil)// ここ
+        //self.window?.rootViewController = viewController// ここ
+        //self.window?.makeKeyAndVisible()// ここ
+        
+        
         return true
     }
 
